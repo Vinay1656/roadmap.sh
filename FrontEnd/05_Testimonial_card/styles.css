@@ -1,0 +1,186 @@
+/* filepath: /Users/vinaynavale/Dev/Roadmap.sh/FrontEnd/05_Testimonial_card/styles.css */
+.speech-card {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+    width: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.speech-card::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    position: absolute;
+    bottom: -10px; /* Adjust as needed */
+    left: 26px; /* Adjust as needed to move towards the start */
+    z-index: 1;
+}
+
+.grid-container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+.element-1{
+    justify-self: end;
+}
+
+.avatar {
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.avatar-container-1{
+    display: flex;
+   
+    
+}
+.details {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center items vertically */
+}
+.details p {
+    
+
+    margin: 0;
+}
+
+.element-2{
+    width: 360px;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-self: start;
+}
+.flex-wrapper {
+    display: flex;
+    justify-content: center; /* Center the grid-container-2 horizontally */
+    align-items: center; /* Center the grid-container-2 vertically if needed */
+    width: 100%; /* Ensure the wrapper takes the full width of the parent */
+}
+
+.content-1{
+    padding: 15px;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-top: 30px;
+   
+}
+.element-1-of-2{
+    justify-self: end;
+    padding-left: 360px;
+}
+
+.element-2-of-2{
+    justify-self: start;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white; 
+    width: 431px;  
+}
+.grid-2-image{
+    margin-left: 30px;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.child-1 {
+ fill: gold; 
+ padding-left: 15px;
+ padding-top: 20px;  /* Add any specific styles for child-1 here */
+}
+
+.flex-cols-4-childeren{
+    display: flex;
+    flex-direction: column;
+    justify-content: left ;
+    align-items: left;
+    padding: 5px;
+}
+
+.grid-container-3{
+    
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 730px;
+    margin: 30px auto 0 auto;
+  
+    
+}
+.flex-container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    
+   
+}
+
+.avatar-2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+
+}
+
+.avatar-3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.7;
+
+   
+
+}
+
+.avatar-4{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.7;
+    
+
+
+}
+
+.avatar-container{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top:15px ;
+    margin-bottom: 15px;
+   
+}
+
